@@ -5,7 +5,7 @@
 Steps to install iverilog
 
 Update Package List:
-Before installing any package, it's a good practice to update the package list to ensure you are getting the latest information about available packages. Open a terminal and run:
+Open a terminal and run:
 ```
 sudo apt update
 sudo apt install iverilog
@@ -25,3 +25,14 @@ Install GTKWave:
 sudo apt install gtkwave
 ```
 ![Screenshot from 2023-07-31 10-00-34](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/65684357-e9c8-4109-b006-bdd75b1d90db)
+
+Steps to install Yosys
+Update Package List
+Open a terminal and run:
+```
+sudo apt update
+```
+Install Yosys:
+```
+sudo apt install yosys
+```

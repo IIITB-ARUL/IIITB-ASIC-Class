@@ -1,8 +1,9 @@
 # IIITB-MT2023529
 # Installation
 ## Day0
+<details> <summary>Steps to install iverilog
+</summary> </details>
 
-Steps to install iverilog
 
 Update Package List:
 Open a terminal and run:
@@ -13,7 +14,7 @@ sudo apt install iverilog
 I have installed iverilog
 ![Screenshot from 2023-07-31 10-00-34](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/bfc534af-8c6a-4328-8ee5-d95997227749)
 
-Steps to install gtkwave
+### Steps to install gtkwave
 
 Update Package List
 Open a terminal and run:
@@ -26,7 +27,7 @@ sudo apt install gtkwave
 ```
 ![Screenshot from 2023-07-31 10-01-15](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fe9ee1da-ece4-4e21-aca2-e2fa6001356b)
 
-Steps to install Yosys
+### Steps to install Yosys
 
 Update Package List
 Open a terminal and run:

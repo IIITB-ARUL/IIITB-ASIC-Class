@@ -12,7 +12,7 @@ sudo apt install iverilog
 
 I have installed iverilog
 
-
+![Screenshot from 2023-07-31 10-00-34](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/cc5c5cc1-34f4-4a34-b7c5-d6e083917f14)
 
 
 </details>

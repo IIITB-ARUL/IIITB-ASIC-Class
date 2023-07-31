@@ -10,3 +10,4 @@ Before installing any package, it's a good practice to update the package list t
 sudo apt update
 sudo apt install iverilog
 ...
+https://github.com/IIITB-ARUL/IIITB-MT2023529/issues/1#issue-1828390616

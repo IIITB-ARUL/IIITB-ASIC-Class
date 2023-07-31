@@ -30,7 +30,8 @@ sudo apt install gtkwave
 ```
 ![Screenshot from 2023-07-31 10-01-15](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fe9ee1da-ece4-4e21-aca2-e2fa6001356b)
 </details>
-### Steps to install Yosys
+
+ <details> <summary>Steps to install Yosys</summary>
 
 Update Package List
 Open a terminal and run:
@@ -42,3 +43,4 @@ Install Yosys:
 sudo apt install yosys
 ```
 ![Screenshot from 2023-07-31 10-01-35](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/9d294e21-a6ac-4a47-aeff-8e5f020c7585)
+</details>

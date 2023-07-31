@@ -17,8 +17,7 @@ I have installed iverilog
 
 </details>
 
-
-## Steps to install gtkwave
+<details> <summary>Steps to install gtkwave</summary>
 
 Update Package List
 Open a terminal and run:
@@ -30,7 +29,7 @@ Install GTKWave:
 sudo apt install gtkwave
 ```
 ![Screenshot from 2023-07-31 10-01-15](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fe9ee1da-ece4-4e21-aca2-e2fa6001356b)
-
+</details>
 ### Steps to install Yosys
 
 Update Package List

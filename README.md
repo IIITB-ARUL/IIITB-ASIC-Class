@@ -24,7 +24,7 @@ Install GTKWave:
 ```
 sudo apt install gtkwave
 ```
-![Screenshot from 2023-07-31 10-00-34](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/65684357-e9c8-4109-b006-bdd75b1d90db)
+![Screenshot from 2023-07-31 10-01-15](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fe9ee1da-ece4-4e21-aca2-e2fa6001356b)
 
 Steps to install Yosys
 Update Package List

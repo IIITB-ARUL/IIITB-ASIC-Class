@@ -1,6 +1,4 @@
-# IIITB-MT2023529
-# Installation
-## Day0
+# Day0
 <details> <summary>Steps to install iverilog
 </summary> 
   Update Package List:
@@ -17,7 +15,7 @@ I have installed iverilog
 </details>
 
 
-### Steps to install gtkwave
+## Steps to install gtkwave
 
 Update Package List
 Open a terminal and run:

@@ -1,5 +1,5 @@
-# Day0
-<details> <summary>Steps to install iverilog
+<details> <summary>Day0
+</summary> <details> <summary>Steps to install iverilog
 </summary> 
   Update Package List:
 Open a terminal and run:
@@ -43,4 +43,5 @@ Install Yosys:
 sudo apt install yosys
 ```
 ![Screenshot from 2023-07-31 10-01-35](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/9d294e21-a6ac-4a47-aeff-8e5f020c7585)
+</details>
 </details>

@@ -75,4 +75,6 @@ sudo reboot
 
 ![Screenshot from 2023-08-05 21-32-09](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/51278a13-82f2-4a94-9180-2815d9c7498c)
 </details>
+<details><summary>Steps to install Magic</summary>
+</details>
 </details>

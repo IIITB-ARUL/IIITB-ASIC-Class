@@ -46,6 +46,29 @@ sudo apt install yosys
 ![Screenshot from 2023-07-31 10-01-35](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/9d294e21-a6ac-4a47-aeff-8e5f020c7585)
 
 </details>
+
+<details><summary>Steps to install Magic</summary>
+Install Magic:
+
+```
+$   sudo apt-get install m4
+$   sudo apt-get install tcsh
+$   sudo apt-get install csh
+$   sudo apt-get install libx11-dev
+$   sudo apt-get install tcl-dev tk-dev
+$   sudo apt-get install libcairo2-dev
+$   sudo apt-get install mesa-common-dev libglu1-mesa-dev
+$   sudo apt-get install libncurses-dev
+git clone https://github.com/RTimothyEdwards/magic
+cd magic
+./configure
+make
+make install
+```
+
+  ![Screenshot from 2023-08-05 21-35-52](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/c37effb6-a016-4dc9-914a-fa8bd6e72f38)
+
+</details>
 <details><summary>Steps to install OpenLane</summary>
 Install Dependencies:
 
@@ -75,6 +98,5 @@ sudo reboot
 
 ![Screenshot from 2023-08-05 21-32-09](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/51278a13-82f2-4a94-9180-2815d9c7498c)
 </details>
-<details><summary>Steps to install Magic</summary>
-</details>
+
 </details>

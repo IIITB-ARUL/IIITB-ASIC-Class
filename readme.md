@@ -76,6 +76,8 @@ sudo make install
 ```
 
 
+![Screenshot from 2023-08-05 21-44-33](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/7e4a2030-6cb4-4f71-a7ae-e149cb20e916)
+
 </details>
 
 <details><summary>Steps to install Magic</summary>

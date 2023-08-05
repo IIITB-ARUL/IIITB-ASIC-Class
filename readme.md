@@ -47,18 +47,49 @@ sudo apt install yosys
 
 </details>
 
+<details><summary>Steps to install ngspice</summary>
+
+
+Dependencies Installation:
+
+```
+sudo apt-get install build-essential
+sudo apt-get install libxaw7-dev
+```
+
+
+Download the tarball file from link:
+ 
+  https://github.com/The-OpenROAD-Project/OpenSTA
+
+
+Unpack the file by using the following commands:
+
+```
+tar -zxvf ngspice-37.tar.gz
+cd ngspice-37
+mkdir release
+cd release
+../configure  --with-x --with-readline=yes --disable-debug
+make
+sudo make install
+```
+
+
+</details>
+
 <details><summary>Steps to install Magic</summary>
 Install Magic:
 
 ```
-$   sudo apt-get install m4
-$   sudo apt-get install tcsh
-$   sudo apt-get install csh
-$   sudo apt-get install libx11-dev
-$   sudo apt-get install tcl-dev tk-dev
-$   sudo apt-get install libcairo2-dev
-$   sudo apt-get install mesa-common-dev libglu1-mesa-dev
-$   sudo apt-get install libncurses-dev
+sudo apt-get install m4
+sudo apt-get install tcsh
+sudo apt-get install csh
+sudo apt-get install libx11-dev
+sudo apt-get install tcl-dev tk-dev
+sudo apt-get install libcairo2-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev
+sudo apt-get install libncurses-dev
 git clone https://github.com/RTimothyEdwards/magic
 cd magic
 ./configure

@@ -130,6 +130,20 @@ sudo reboot
 ```
 
 ![Screenshot from 2023-08-05 21-32-09](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/51278a13-82f2-4a94-9180-2815d9c7498c)
+
+
+</details>
+<details><summary>Steps to install PDKS and tools</summary>
+Proceed with the following commands:
+  
+```
+cd $HOME
+git clone https://github.com/The-OpenROAD-Project/OpenLane
+cd OpenLane
+make
+make test
+```
+
 </details>
 
 </details>

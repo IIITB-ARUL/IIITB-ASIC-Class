@@ -147,3 +147,40 @@ make test
 </details>
 
 </details>
+<details>
+<summary> Day1 </summary>
+
+  **Introduction to verilog RTL Design and Synthesis:**
+
+Register Transfer Logic is a representation of the digital circuit at abstract level.At the RTL level, designers describe the behavior and functionality of a digital system using a hardware description language (HDL) such as Verilog.
+
+**Simulator:**
+
+
+**Testbench:**
+
+The functionality of the design block can be tested by applying stimulus and checking results.The stimulus block is called as testbench.
+
+
+**Working of Simulator:**
+
+
+**Introduction to opensource simulator iverilog:**
+
+
+**Environment Setup:**
+
+Here  we will look into toolflow setup and files setup which are needed to run the lab.
+Create a directory named VLSI and git clone(make a clone or copy of files repo at in a new directory to a local machine) the necessary files:
+
+```
+mkdir VLSI
+git clone https://github.com/kunalg123/vsdflow.git
+git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+```
+
+Once you run the commands the corresponding directories will be created.To navigate through the directories and view the  cloned files use the commands shown in the following image.
+  
+  
+                    
+</details>

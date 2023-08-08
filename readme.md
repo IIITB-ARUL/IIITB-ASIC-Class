@@ -183,6 +183,10 @@ Once you run the commands the corresponding directories will be created.To navig
 
 
 ![Navigate](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f4175d80-dab8-4911-9975-0db0b1870d5b)
+
+
+In this section we will first focus on the simulation of the design using **iverilog**.You can see the lab files,source files and testbench files in the above image which we are going to use in this lab.
+
   
   
                     

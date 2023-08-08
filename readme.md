@@ -199,7 +199,7 @@ We shall compile a 2:1 mux by loading a design file named good_mux.v and its ass
 ```
 iverilog good_mux.v tb_good_mux.v
 ```
-Now an executable file is created.By executing it(using below command),It will dump a vcd file as you clearly see in the below image:
+Now an executable file is created.By executing it(using below command),It will dump a vcd file as you can clearly see in the below image:
 
 ```
 ./aout
@@ -207,4 +207,10 @@ Now an executable file is created.By executing it(using below command),It will d
 
 ![Screenshot from 2023-08-09 01-51-42](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/dae54b81-6e1d-4cfc-89da-a44403cf90c2)
 
+
+Now to view the waveform use the following command:
+
+```
+gtkwave tb_good_mux.vcd
+```
 </details>

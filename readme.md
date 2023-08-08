@@ -152,7 +152,7 @@ make test
 
   **Introduction to verilog RTL Design and Synthesis:**
 
-Register Transfer Logic is a representation of the digital circuit at abstract level.At the RTL level, designers describe the behavior and functionality of a digital system using a hardware description language (HDL) such as Verilog.
+Register Transfer Logic is a representation of the digital circuit at an abstract level.At the RTL level, designers describe the behavior and functionality of a digital system using a hardware description language (HDL) such as Verilog.
 
 **Simulator:**
 

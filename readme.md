@@ -159,7 +159,7 @@ Register Transfer Logic is a representation of the digital circuit at an abstrac
 
 **Testbench:**
 
-The functionality of the design block can be tested by applying stimulus and checking results.The stimulus block is called as testbench.
+The functionality of the design block can be tested by applying **stimulus** and checking results.The stimulus block is called as testbench.
 
 
 **Working of Simulator:**
@@ -185,9 +185,24 @@ Once you run the commands the corresponding directories will be created.To navig
 ![Navigate](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f4175d80-dab8-4911-9975-0db0b1870d5b)
 
 
-In this section we will first focus on the simulation of the design using **iverilog**.You can see the lab files,source files and testbench files in the above image which we are going to use in this lab.
+In this section we will first focus on the simulation of the design using **iverilog**.You can see the design files or source files and testbench files in the above image which we are going to use in this lab.
 
-  
-  
-                    
+
+**Working with iverilog and gtkwave:**
+
+Now we are going to load the design file and testbench file in iverilog.To access the file and to simulate it you should move to the **verilog_files** directories as showed in the previous image.
+
+**Simulation:**
+
+We shall simulate a 2x1 mux by loading a design file named good_mux.v and its associated testbench file tb_good_mux.v by using the following command:
+
+```
+iverilog good_mux.v tb_good_mux.v
+```
+Now an executable file is created.By executing it(using below command),It will dump a vcd file as you clearly see in the below image:
+
+```
+./aout
+```
+
 </details>

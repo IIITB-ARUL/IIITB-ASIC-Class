@@ -194,7 +194,7 @@ Now we are going to load the design file and testbench file in iverilog.To acces
 
 **Simulation:**
 
-We shall simulate a 2x1 mux by loading a design file named good_mux.v and its associated testbench file tb_good_mux.v by using the following command:
+We shall compile a 2:1 mux by loading a design file named good_mux.v and its associated testbench file tb_good_mux.v by using the following command:
 
 ```
 iverilog good_mux.v tb_good_mux.v

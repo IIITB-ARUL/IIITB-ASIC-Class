@@ -225,4 +225,11 @@ gvim tb_good_mux.v -o good_mux.v
 ![Screenshot from 2023-08-09 02-19-27](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/545294b9-af11-4d8d-883f-c960a4e1afa7)
 
 
+**Introduction to  Yosys and logic synthesis:**
+
+Yosys is an open-source software framework for RTL synthesis and formal verification of digital designs.
+
+**Synthesizer:**
+
+
 </details>

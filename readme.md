@@ -180,6 +180,9 @@ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 ```
 
 Once you run the commands the corresponding directories will be created.To navigate through the directories and view the  cloned files use the commands shown in the following image.
+
+
+![Navigate](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f4175d80-dab8-4911-9975-0db0b1870d5b)
   
   
                     

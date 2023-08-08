@@ -213,4 +213,8 @@ Now to view the waveform use the following command:
 ```
 gtkwave tb_good_mux.vcd
 ```
+
+![Screenshot from 2023-08-09 01-59-36](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/77c9550e-071a-45f5-ab1c-dee7b7ba2088)
+
+
 </details>

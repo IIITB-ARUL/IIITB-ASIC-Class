@@ -205,4 +205,6 @@ Now an executable file is created.By executing it(using below command),It will d
 ./aout
 ```
 
+![Screenshot from 2023-08-09 01-51-42](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/dae54b81-6e1d-4cfc-89da-a44403cf90c2)
+
 </details>

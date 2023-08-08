@@ -216,5 +216,10 @@ gtkwave tb_good_mux.vcd
 
 ![Screenshot from 2023-08-09 01-59-36](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/77c9550e-071a-45f5-ab1c-dee7b7ba2088)
 
+To access and edit the module file use the following command:
+
+```
+gvim tb_good_mux.v -o good_mux.v
+```
 
 </details>

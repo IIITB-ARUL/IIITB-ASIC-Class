@@ -231,7 +231,15 @@ Yosys is an open-source software framework for RTL synthesis and formal verifica
 
 **Synthesizer:**
 
- RTL to Gate level translation. The design is converted int gates and connections are made. This given outas a file called netlist.
+ RTL to Gate level translation. The design is converted into gates and connections are made. 
+ This is given out as a file called netlist.
+
+**What is .lib?**
+
+.lib file is a collection of logical modules which includes all basic logic gates. It alsos contain different flavors of the same gate (2 input AND, 3 input AND – slow, medium and fast version).
+This gates will be more than sufficient to form any logical function.
+
+**Purpose of slower cells and faster cells:**
 
 
 </details>

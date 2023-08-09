@@ -231,5 +231,7 @@ Yosys is an open-source software framework for RTL synthesis and formal verifica
 
 **Synthesizer:**
 
+ RTL to Gate level translation. The design is converted int gates and connections are made. This given outas a file called netlist.
+
 
 </details>

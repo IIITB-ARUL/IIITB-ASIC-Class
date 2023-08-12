@@ -322,5 +322,14 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 It also infers number of inputs and outputs in the design.
 
 
+**show command:**
+
+It is  used to see the logic the synthesizer has realized.It will show the graphical version of logic it has realized.
+
+```
+show
+```
+
+
 
 </details>

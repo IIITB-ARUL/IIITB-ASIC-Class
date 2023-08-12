@@ -369,7 +369,7 @@ There are three very important parameters which have have to be taken into consi
 
 **Process:**
 
-This refers to the natural variability that occurs during the semiconductor manufacturing process. Due to factors like impurities, imperfections, and variations in the fabrication process, different chips or even different parts of the same chip can have slightly varying electrical characteristics. Process variation can lead to differences in transistor performance, gate delays, and other electrical properties.
+This refers to the natural variability that occurs during the semiconductor manufacturing process. Process variation can lead to differences in transistor performance, gate delays, and other electrical properties.
 
 **Voltage:**
 

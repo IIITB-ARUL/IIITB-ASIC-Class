@@ -398,5 +398,32 @@ To see the different flavours of the same cells and different cells:
 
 
 ![diff cells](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/cf777ebd-5466-4680-839d-dbf0ddd26376)
+
+
+
+To understand the functionality:
+
+.lib is going to contain different features of cell.To understand the characteristics of the cell we can look at the equivalent verilog model.
+
+Proceed with the following keyword in the library file:
+
+```
+sp ../my_lib/verilog_model/sky130_fd_sc_hd.v
+```
+
+You clearly see from the image that .lib contains information about area number,leakage power,powerport.
+
+It also describes each input pin:
+
+>The input capacitance of the input pin.
+
+>The power related to that input pin.
+
+>the transition related to that pin.
+
+>The delay related to that pin.
+
+
+
 </details>
 

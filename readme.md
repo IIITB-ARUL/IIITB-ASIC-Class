@@ -236,10 +236,20 @@ Yosys is an open-source software framework for RTL synthesis and formal verifica
 
 **Synthesis:**
 
- RTL to Gate level translation. The design is converted into gates and connections are made. 
- This is given out as a file called netlist.The first step synthesizer is going to do is a syntactical check then it will start mapping the design.
+ It is the process of converting the high-level description into an RTL representation that defines the functional blocks, interconnections, and register transfers within the design. This representation is often in the form of a hardware netlist, which is a list of interconnected logic elements.
+ During synthesis, various optimization techniques are applied to improve the design's performance, power efficiency, and area utilization.
+ 
+ The first step synthesizer is going to do is a syntactical check then it will start mapping the design.
 
  **Example:**
+
+![Synthesis example](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/28825050-136b-4778-975e-f23e4b550558)
+
+1.Module maps to the top level ports of the design.
+
+2.The assign statement becomes the mux.
+
+3.The always block  becomes the flipflop.
 
 
     

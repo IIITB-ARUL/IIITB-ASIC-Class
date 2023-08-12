@@ -331,5 +331,22 @@ show
 ```
 
 
+</details>
+
+## Day 2
+<details> <summary> Introduction to timing.libs:
+
+</summary>
+
+To view the contents present in the library file,give the following commands:
+
+```
+gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+
+
+
 
 </details>
+

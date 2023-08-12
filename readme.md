@@ -234,11 +234,15 @@ gvim tb_good_mux.v -o good_mux.v
 
 Yosys is an open-source software framework for RTL synthesis and formal verification of digital designs.
 
-**Synthesizer:**
+**Synthesis:**
 
  RTL to Gate level translation. The design is converted into gates and connections are made. 
- This is given out as a file called netlist.
+ This is given out as a file called netlist.The first step synthesizer is going to do is a syntactical check then it will start mapping the design.
 
+ **Example:**
+
+
+    
 **What is .lib?**
 
 .lib file is a collection of logical modules which includes all basic logic gates. It also contains different flavors of the same gate (2 input AND, 3 input AND – slow, medium and fast version).

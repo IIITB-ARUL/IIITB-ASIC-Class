@@ -243,10 +243,12 @@ Yosys is an open-source software framework for RTL synthesis and formal verifica
  During synthesis, various optimization techniques are applied to improve the design's performance, power efficiency, and area utilization.
  
  The first step synthesizer is going to do is a syntactical check then it will start mapping the design.
-
  **Example:**
 
 ![Synthesis example](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/28825050-136b-4778-975e-f23e4b550558)
+
+
+The conversion of RTL in terms of the standard cells  gates available in the **.lib**.
 
 1.Module maps to the top level ports of the design.
 

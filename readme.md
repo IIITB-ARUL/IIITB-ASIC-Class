@@ -289,4 +289,21 @@ read_verilog good_mux.v
 ```
 
 
+![readlib](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/2f487b4b-551d-408a-9216-adb8706d33f5)
+
+
+Synthesize the module using command:
+
+*synt -top <name.v>*
+
+Here we will synthesize a mux,
+
+```
+synth -top good_mux.v
+```
+
+**Note:** If the design is spanning more than one  file append remaining files to the above command.
+
+
+
 </details>

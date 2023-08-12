@@ -167,6 +167,9 @@ Register Transfer Logic is a representation of the digital circuit at an abstrac
 The functionality of the design block can be tested by applying **stimulus** and checking results.The stimulus block is called as testbench.
 
 
+![Testbench](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ddc87d0b-32cc-405d-938b-0b17be79d182)
+
+
 **Working of Simulator:**
 
 

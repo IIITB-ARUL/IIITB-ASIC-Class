@@ -266,4 +266,9 @@ This gates will be more than sufficient to form any logical function.
 **Purpose of slower cells and faster cells:**
 
 
+
+**Introduction to Yosys lab:**
+Move to the directory verilog_files and invoke yosys:
+
+
 </details>

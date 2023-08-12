@@ -411,6 +411,10 @@ Proceed with the following keyword in the library file:
 sp ../my_lib/verilog_model/sky130_fd_sc_hd.v
 ```
 
+
+
+![Features of cells](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ab9175bc-8916-47a7-b74e-c9740ddad546)
+
 You clearly see from the image that .lib contains information about area number,leakage power,powerport.
 
 It also describes each input pin:

@@ -379,5 +379,15 @@ Voltage variations or supply voltage fluctuations can impact the performance of 
 **Temaparature:**
 
 Temperature variations can also influence the behavior of digital circuits. Higher temperatures can cause transistors to become more leaky, leading to increased power consumption and potentially affecting the timing behavior of the circuit.
+
+
+Our libraries will be characterized to model these **PVT** variations.
+
+.lib is a  bucket of all the standard cells.So to highlight the begining of the cell definition use the below keyword:
+
+```
+:se hls
+```
+
 </details>
 

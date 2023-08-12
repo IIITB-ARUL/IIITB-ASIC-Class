@@ -306,6 +306,19 @@ synth -top good_mux.v
 
 ![Synth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/afe0511e-123f-4696-8832-486a97745218)
 
+**abc command:** 
+
+This command converts our RTL file into set of gates,i.e., the logic of good_mux is realized in terms of standard cell gates available in the **sky130_fd_sc_hd__tt_025C_1v80.lib** library.
+
+Generate netlist:
+
+```
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+
+It also infers number of inputs and outputs in the design.
+
 
 
 </details>

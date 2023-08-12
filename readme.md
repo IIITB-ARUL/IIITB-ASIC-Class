@@ -389,5 +389,14 @@ Our libraries will be characterized to model these **PVT** variations.
 :se hls
 ```
 
+To see the different flavours of the same cells and different cells:
+
+```
+:g//
+```
+
+
+
+![diff cells](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/cf777ebd-5466-4680-839d-dbf0ddd26376)
 </details>
 

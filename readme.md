@@ -268,7 +268,25 @@ This gates will be more than sufficient to form any logical function.
 
 
 **Introduction to Yosys lab:**
+
+**Steps for Synthesis:**
 Move to the directory verilog_files and invoke yosys:
+
+```
+cd VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files/
+yosys
+```
+
+
+![invoke](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/30eeeaaf-14d5-44f0-95f1-be26863eff23)
+
+
+Now to read the library and design files,give the following cmmand in the yosys prompt:
+
+```
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog good_mux.v
+```
 
 
 </details>

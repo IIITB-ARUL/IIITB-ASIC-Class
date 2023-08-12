@@ -389,6 +389,10 @@ Our libraries will be characterized to model these **PVT** variations.
 :se hls
 ```
 
+
+![cell highlight ](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/d0e761ff-a10d-4479-a40e-5e7f1c017667)
+
+
 To see the different flavours of the same cells and different cells:
 
 ```
@@ -415,7 +419,7 @@ sp ../my_lib/verilog_model/sky130_fd_sc_hd.v
 
 ![Features of cells](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ab9175bc-8916-47a7-b74e-c9740ddad546)
 
-You clearly see from the image that .lib contains information about area number,leakage power,powerport.
+You can infer that .lib contains information about area number,leakage power,powerport.
 
 It also describes each input pin:
 

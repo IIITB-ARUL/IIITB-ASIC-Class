@@ -344,9 +344,40 @@ To view the contents present in the library file,give the following commands:
 gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
+**sky130_fd_sc_hd__tt_025C_1v80:**
+
+*sky denotes skywater,the name of library.*
+
+*tt denotes typical(libraries can be fast slow typical).*
+
+*025C denotes temperature.*
+
+*1v80 denotes voltage.*
+
+
+![lib](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/727802ee-c8f1-4c90-8719-fdc2d8d1a5fc)
+
+There are three very important parameters which have have to be taken into consideration seriously for the design to work desirably:
+
+1.Process
+
+2.Voltage 
+
+3.Temparature
 
 
 
+**Process:**
 
+This refers to the natural variability that occurs during the semiconductor manufacturing process. Due to factors like impurities, imperfections, and variations in the fabrication process, different chips or even different parts of the same chip can have slightly varying electrical characteristics. Process variation can lead to differences in transistor performance, gate delays, and other electrical properties.
+
+**Voltage:**
+
+Voltage variations or supply voltage fluctuations can impact the performance of digital circuits. If the supply voltage deviates from the expected value, it can affect the threshold voltages of transistors, leading to changes in the propagation delays and power consumption of the circuit.
+
+
+**Temaparature:**
+
+Temperature variations can also influence the behavior of digital circuits. Higher temperatures can cause transistors to become more leaky, leading to increased power consumption and potentially affecting the timing behavior of the circuit.
 </details>
 

@@ -302,7 +302,9 @@ Here we will synthesize a mux,
 synth -top good_mux.v
 ```
 
-**Note:** If the design is spanning more than one  file append remaining files to the above command.
+**Note:** If the design is spanning more than one  file append remaining file names to the above command.
+
+![Synth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/afe0511e-123f-4696-8832-486a97745218)
 
 
 

@@ -421,9 +421,9 @@ sp ../my_lib/verilog_model/sky130_fd_sc_hd.v
 
 You can infer that .lib contains information about area number,leakage power,powerport.
 
-It also describes each input pin:
+It also describes each input combination,i.e., 32 combinations for 5 inputs:
 
->The input capacitance of the input pin.
+>The input capacitance of the pin.
 
 >The power related to that input pin.
 

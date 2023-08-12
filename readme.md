@@ -316,6 +316,8 @@ Generate netlist:
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
+![abc](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/3b297d30-2e31-4170-a4ef-6569682c311f)
+
 
 It also infers number of inputs and outputs in the design.
 

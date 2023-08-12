@@ -383,7 +383,7 @@ Temperature variations can also influence the behavior of digital circuits. High
 
 Our libraries will be characterized to model these **PVT** variations.
 
-.lib is a  bucket of all the standard cells.So to highlight the begining of the cell definition use the below keyword:
+**.lib is a  bucket of all the standard cells**.So to highlight the begining of the cell definition use the below keyword:
 
 ```
 :se hls

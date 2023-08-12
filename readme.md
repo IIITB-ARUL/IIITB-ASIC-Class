@@ -416,12 +416,14 @@ sp ../my_lib/verilog_model/sky130_fd_sc_hd.v
 ```
 
 
-
 ![Features of cells](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ab9175bc-8916-47a7-b74e-c9740ddad546)
 
 You can infer that .lib contains information about area number,leakage power,powerport.
 
 It also describes each input combination,i.e., 32 combinations for 5 inputs:
+
+![Screenshot from 2023-08-12 23-52-35](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/6917ed42-2859-4182-ade6-e2bda174566e)
+
 
 >The input capacitance of the pin.
 

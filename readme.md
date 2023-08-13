@@ -3,8 +3,7 @@
 
 
 
-<details> <summary>Day0
-</summary> 
+## Day 0
 <details> <summary>Steps to install iverilog
 </summary> 
   Update Package List:

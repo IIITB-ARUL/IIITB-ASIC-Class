@@ -337,6 +337,10 @@ show
 
 </summary>
 
+
+**.lib files:**
+
+
 To view the contents present in the library file,give the following commands:
 
 ```

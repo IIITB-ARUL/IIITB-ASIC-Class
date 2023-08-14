@@ -503,3 +503,10 @@ write_verilog multiple_modules_hier.v
 
 
 In submodule2 we are expecting an or gate but what happening in yosys synthesis is shown in the below image:
+
+
+
+![Nand nor](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/68093c8a-f5ff-42a6-90c6-61fc96bd8f0e)
+
+As we can infer from the above image the yosys synhtesize a nand logic.The nand logic contains a stacked nmos where as nor logic contains stacked pmos.The stacked pmos is always bad because the pmos has poor mobility. To improve this we have to make this cell really a wide cell to get good logical circuit which requires more area.This can impact the overall chip area and potentially reduce the number of gates that can be integrated onto a chip.
+

@@ -531,5 +531,23 @@ You can infer from the image that it has single netlist.The hierarchies are flat
 
 **Synthesization of submodules:**
 
+To synthesise submodule:
 
+
+```
+
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog 
+read_verilog multiple_modules.v 
+synth -top sub_module1
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+```
+
+**Why submodule level synth?**
+
+1.When have multiple instances of same module we can synthesise it one time and replicate it multiple times and stitch it together in the top module.
+
+2.**Divide and Conquer:** When we give massive design to a tool,the tool may not be doing a good job.Instead we give portions of the massive design so a nice netlist is written out and synthesizedand finally stitched together in the topmodul.
 

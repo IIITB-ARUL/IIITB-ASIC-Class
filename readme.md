@@ -559,7 +559,7 @@ show
 **Why Flipflops?**
 
 
-
+![Why flops](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/99f1748a-c22c-4094-8dbc-b939c2330d6a)
 
 In RTL, flip-flops can be used to control the flow of data and operations in a circuit. For instance, they can hold  signals that determine whether certain operations or data transfers should occur so the glitches can be reduced then the output becomes settled down.Eventhough the input of the flop is glitching the output will be stable.
 

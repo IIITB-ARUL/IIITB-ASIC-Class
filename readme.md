@@ -551,6 +551,7 @@ show
 
 2.**Divide and Conquer:** When we give massive design to a tool,the tool may not be doing a good job.Instead we give portions of the massive design so a nice netlist is written out and synthesizedand finally stitched together in the topmodule.
 
+</details>
 <details>
   <summary>
     Various Flop Coding Styles and optimization 

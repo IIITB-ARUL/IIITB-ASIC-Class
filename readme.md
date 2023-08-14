@@ -462,3 +462,23 @@ cd VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files/
 gvim multiple_modules.v
 ```
 ![multiple module](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/4b2b5f3c-0a7a-4d69-92ea-8f39df7dbb6e)
+
+
+
+From the verilog file what we realize is the image shown below :
+
+![multiple modules 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/2b6ce52a-258a-43e6-a05b-1b55047b70a3)
+
+
+Now lets synthesize the verilog file using yosys,
+
+To synthesize:
+
+```
+yosys
+read_verilog multiple_modules.v
+synth -top multiple_modules
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show multiple_modules 
+```
+*since there are several modules present specify the name along with the show command.*

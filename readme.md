@@ -510,3 +510,6 @@ In submodule2 we are expecting an or gate but what happening in yosys synthesis 
 
 As we can infer from the above image the yosys synhtesize a nand logic.The nand logic contains a stacked nmos where as nor logic contains stacked pmos.The stacked pmos is always bad because the pmos has poor mobility. To improve this we have to make this cell really a wide cell to get good logical circuit which requires more area.This can impact the overall chip area and potentially reduce the number of gates that can be integrated onto a chip.
 
+
+**Flat Synthesis:**
+It is the opposite of hierarchical synthesis in the context of digital design, particularly in RTL (Register Transfer Level) design. While hierarchical synthesis involves breaking down a complex design into smaller modules and then integrating them hierarchically, flat synthesis refers to synthesizing the entire design as a single, monolithic unit without using hierarchical module decomposition.

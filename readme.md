@@ -444,8 +444,7 @@ It also describes each input combination,i.e., 32 combinations for 5 inputs:
 
 
 **Hierarchiacal Synthesis:**
-
- It refers to a design methodology where a complex digital circuit is created by breaking it down into smaller, more manageable modules or blocks. Each module is designed and synthesized separately, and then these modules are integrated hierarchically to create the complete circuit.
+It refers to a design methodology where a complex digital circuit is created by breaking it down into smaller, more manageable modules or blocks. Each module is designed and synthesized separately, and then these modules are integrated hierarchically to create the complete circuit.
 
 
 **Example:**
@@ -513,3 +512,10 @@ As we can infer from the above image the yosys synhtesize a nand logic.The nand 
 
 **Flat Synthesis:**
 It is the opposite of hierarchical synthesis in the context of digital design, particularly in RTL (Register Transfer Level) design. While hierarchical synthesis involves breaking down a complex design into smaller modules and then integrating them hierarchically, flat synthesis refers to synthesizing the entire design as a single, monolithic unit without using hierarchical module decomposition.
+
+To view the netlist for the flattened synthesis:
+
+```
+write_verilog -noattr multiple_modules_flat.v
+gvim multiple_modules_flat.v
+```

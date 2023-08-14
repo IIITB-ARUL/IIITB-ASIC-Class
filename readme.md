@@ -519,3 +519,6 @@ To view the netlist for the flattened synthesis:
 write_verilog -noattr multiple_modules_flat.v
 gvim multiple_modules_flat.v
 ```
+
+
+![Flatten](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/2ee50214-ff14-4c55-9b48-80c06ee1adf8)

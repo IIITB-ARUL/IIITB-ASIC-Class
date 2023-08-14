@@ -491,3 +491,9 @@ show multiple_modules
 
 
 Now from the image you can clearly see that it is not showing **and** and **or** gate.It is showing u1 and u2 instances of submodule1 and submodule2.This is called as the hierarchical design.
+
+Now we shall write out the netlist and see how the netlist looks like,
+
+```
+write_verilog multiple_modules_hier.v
+!gvim 

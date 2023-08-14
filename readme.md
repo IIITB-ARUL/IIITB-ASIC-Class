@@ -523,6 +523,7 @@ gvim multiple_modules_flat.v
 
 ![Flatten](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/2ee50214-ff14-4c55-9b48-80c06ee1adf8)
 
+![flat show](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/23ab7929-a5dc-4d2f-882c-59509f6f2d7e)
 
 
 

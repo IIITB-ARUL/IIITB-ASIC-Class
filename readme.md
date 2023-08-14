@@ -549,5 +549,18 @@ show
 
 1.When have multiple instances of same module we can synthesise it one time and replicate it multiple times and stitch it together in the top module.
 
-2.**Divide and Conquer:** When we give massive design to a tool,the tool may not be doing a good job.Instead we give portions of the massive design so a nice netlist is written out and synthesizedand finally stitched together in the topmodul.
+2.**Divide and Conquer:** When we give massive design to a tool,the tool may not be doing a good job.Instead we give portions of the massive design so a nice netlist is written out and synthesizedand finally stitched together in the topmodule.
 
+<details>
+  <summary>
+    Various Flop Coding Styles and optimization 
+  </summary>
+
+**Why Flipflops?**
+
+
+
+
+In RTL, flip-flops can be used to control the flow of data and operations in a circuit. For instance, they can hold  signals that determine whether certain operations or data transfers should occur so the glitches can be reduced then the output becomes settled down.Eventhough the input of the flop is glitching the output will be stable.
+
+</details>

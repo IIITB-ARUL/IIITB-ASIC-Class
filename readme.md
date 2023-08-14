@@ -499,4 +499,4 @@ write_verilog multiple_modules_hier.v
 !gvim multiple_modules_hier.v
 ```
 
-![netlist](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/d98b6dc3-6128-4647-afbc-5c7fcf328fed)
+![netlist](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ee5ef68a-9b8f-4909-8c91-b048ee7f309d)

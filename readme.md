@@ -151,10 +151,10 @@ make test
 </details>
 
 </details>
-<details>
-<summary> Day1 </summary>
 
-  **Introduction to verilog RTL Design and Synthesis:**
+ ## Day1 
+
+<details><summary>Introduction to verilog RTL Design and Synthesis</summary>
 
 Register Transfer Logic is a representation of the digital circuit at an abstract level.At the RTL level, designers describe the behavior and functionality of a digital system using a hardware description language (HDL) such as Verilog.
 
@@ -333,7 +333,7 @@ show
 </details>
 
 ## Day 2
-<details> <summary> Introduction to timing.libs:
+<details> <summary> Introduction to timing.libs
 
 </summary>
 
@@ -440,3 +440,24 @@ It also describes each input combination,i.e., 32 combinations for 5 inputs:
 
 </details>
 
+<details> <summary>Hierarchical Synthesis vs Flat Synthesis</summary>
+
+
+**Hierarchiacal Synthesis:**
+
+ It refers to a design methodology where a complex digital circuit is created by breaking it down into smaller, more manageable modules or blocks. Each module is designed and synthesized separately, and then these modules are integrated hierarchically to create the complete circuit.
+
+
+**Example:**
+
+To get a better understanding of this hierarchical synthesis we shall synthesize a design file named multiple modules.
+
+
+**Multiples Modules:**
+
+To view the file move to the verilog_file directory:
+
+```
+cd VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files/
+gvim multiple_modules.v
+```

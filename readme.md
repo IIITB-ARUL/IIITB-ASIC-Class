@@ -500,3 +500,6 @@ write_verilog multiple_modules_hier.v
 ```
 
 ![netlist](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ee5ef68a-9b8f-4909-8c91-b048ee7f309d)
+
+
+In submodule2 we are expecting an or gate but what happening in yosys synthesis is shown in the below image:

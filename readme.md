@@ -461,3 +461,4 @@ To view the file move to the verilog_file directory:
 cd VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files/
 gvim multiple_modules.v
 ```
+![multiple module](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/4b2b5f3c-0a7a-4d69-92ea-8f39df7dbb6e)

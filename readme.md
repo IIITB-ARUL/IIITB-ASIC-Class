@@ -496,4 +496,7 @@ Now we shall write out the netlist and see how the netlist looks like,
 
 ```
 write_verilog multiple_modules_hier.v
-!gvim 
+!gvim multiple_modules_hier.v
+```
+
+

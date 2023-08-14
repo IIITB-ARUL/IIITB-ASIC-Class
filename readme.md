@@ -482,3 +482,12 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show multiple_modules 
 ```
 *since there are several modules present specify the name along with the show command.*
+
+
+
+![yosys show](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/3a09410c-ca34-4a37-873f-fd7dfb2251f8)
+
+
+
+
+Now from the image you can clearly see that it is not showing **and** and **or** gate.It is showing u1 and u2 instances of submodule1 and submodule2.This is called as the hierarchical design.

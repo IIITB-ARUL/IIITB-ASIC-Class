@@ -769,6 +769,12 @@ Techniques:
 
 **Constant propagation:**
 
+![example1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/10109081-25f0-400f-8d60-ea6123ac25bb)
+
+
+CMOS logic of the above design,
+
+
 ![constant progation](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/279e27c4-068f-418b-892a-898a8156f8d3)
 
 

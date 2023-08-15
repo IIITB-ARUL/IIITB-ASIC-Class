@@ -1102,10 +1102,13 @@ show
  **Example**
 
 
+![unused](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/52cc56bb-fbe3-4171-a085-1f5d71087cd0)
 
 
+From the above verilog code what we infer is shown in the below image
 
 
+![unsused](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/6427bfec-76c5-44c8-8bcc-896ea8b63b77)
 
 
 
@@ -1119,6 +1122,25 @@ dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 ```
+![unusedyosys](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/915c5af1-d8be-4a55-9e9f-6cca0d962d90)
+
+Lets take an example which uses three flipflops
+
+
+
+**Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/counter_opt2.v
+synth -top counter_opt
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
 
  
 </details>

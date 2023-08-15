@@ -706,8 +706,23 @@ Lets synthesize this verilog design using yosys,
 
 ![mult_2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/11d4acdb-cb08-4b5d-aa78-0ae4206b7dcb)
 
+The generated netlist:
 
 
+
+
+Now we shall take another examole of multiplier of 9:
+
+
+
+
+Verilog code:
+
+```
+module mult8 (input [2:0] a , output [5:0] y);
+	assign y = a * 9;
+endmodule
+```
 
 
 

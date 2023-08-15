@@ -1012,11 +1012,29 @@ show
 
 **Example 3**
 
+![dffcons3](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/7f182b54-788a-4548-8844-eba56ac2f9ee)
+
 
 
 **Simulation**
 
+![dffconsgtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/924d4c9b-b1ad-4ff9-b441-701ec4f89fef)
+
+
 **Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/dff_const4.v
+synth -top dff_const4
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+
+```
+
+![dffcons3yosys](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f8c40d45-8587-4f9a-bd26-69f38f77930d)
 
 
 </details>

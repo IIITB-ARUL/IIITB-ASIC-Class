@@ -665,5 +665,23 @@ end
 endmodule
 ```
 
+![syncres1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f72e6a23-6a8b-4412-b0f7-63929e77d861)
+![syncres](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/6cde104a-c027-45cf-b823-3b60f80d6e44)
+
+**Synthesis:**
+
+Commands:
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/dff_syncres.v
+synth -top dff_syncres
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
 
 </details>

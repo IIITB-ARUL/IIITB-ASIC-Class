@@ -585,6 +585,8 @@ Verilog code:
 endmodule
 ```
 
+![DFF async](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/71165723-3abe-4431-a842-a253d171c7fb)
+![Dff async1 ](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/b399ee0b-c97d-4e9f-999e-530f6ba71106)
 
 
 

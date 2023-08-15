@@ -1093,5 +1093,9 @@ show
 
 
 </details>
-
+<details>
+	<summary>
+		Sequential optimizations for unused outputs
+	</summary>
+</details>
 

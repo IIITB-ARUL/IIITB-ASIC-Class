@@ -860,6 +860,12 @@ show
 **Example 3**
 
 
+
+![ex3 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/2d5f3268-2e3e-4e82-a3e3-5c5f8b23749d)
+
+
+
+
 **Synthesis**
 
 ```
@@ -872,9 +878,12 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
 
+![ex3 2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/09829796-d474-4f1d-8063-3efea99c2caa)
+
 
 **Example 4**
 
+![ex4 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/18ac3756-2455-47d7-b8b3-0864d9b17c6a)
 
 
 **Synthesis**
@@ -888,12 +897,14 @@ opt_clean -purge
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 ```
+![ex4 2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/08fe131a-f35e-4336-9730-0bfa2fe58d04)
 
 
 **Example 5**
 
 Here the multiple_module_opt.v verilog file is synthesized and checked for optimization.There  are multiple modules presentin the design.
 
+![ex5 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/482c2475-f0bc-458e-a42d-9ce6ca509858)
 
 
  **Synthesis**
@@ -908,10 +919,12 @@ flatten
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 ```
+![ex5 2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/3c0c9e96-bf92-4a0f-b366-128ed873bf6b)
 
 
 **Example 6**
 
+![ex6 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/dd3c61d8-38d9-4eb4-9749-b708e3fb8918)
 
 
  **Synthesis**
@@ -926,6 +939,7 @@ opt_clean -purge
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 ```
+![ex6 2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/b70992ea-cb2e-4438-9e2d-aed0c0ae6198)
 
 
 </details>

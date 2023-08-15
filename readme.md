@@ -1126,6 +1126,8 @@ show
 
 Lets take an example which uses three flipflops
 
+![counteropt2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/5a91a441-c65c-4fe4-a58e-bd2ad493ecdd)
+
 
 
 **Synthesis**
@@ -1139,6 +1141,7 @@ dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 ```
+![counteropt2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/6fcbdaad-f85c-48d1-9d93-ee8a704b5af9)
 
 
 

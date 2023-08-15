@@ -769,6 +769,8 @@ Techniques:
 
 **Constant propagation:**
 
+![constant progation](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/279e27c4-068f-418b-892a-898a8156f8d3)
+
 
 
 From the image we can observe that the number of transistors deployed to realize the same expression is decreased.
@@ -776,6 +778,9 @@ From the image we can observe that the number of transistors deployed to realize
 **Boolean logic optimization:**
 
 
+![Booleanlogic](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/e0555c64-b4b5-4a45-bba9-de10fd519cf4)
+
+From the image we infer that the long complex expression is reduced to a simple expression using kmap reduction.Here the boolean logic optimization is done by the synthesis tool.
 
 </details>
 

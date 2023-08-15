@@ -978,6 +978,7 @@ show
 ![DFFconst1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fcb3873f-fc38-4728-afa6-9b79cd91b2ff)
 
 
+>The optimized graphical realization thus shows the flop inferred. Also, the design code has active high reset and the standard cell library has active low reset - so, there is a presence of inverter for the reset.
 
 **Example 2**
 

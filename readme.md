@@ -945,4 +945,64 @@ show
 </details>
 
 
+<details>
+	<summary>
+		Sequential logic synthesis
+	</summary>
+
+
+**Example 1**
+
+
+
+
+The output is changing so the flipflop will be inferred.
+
+**Simulation**
+
+
+
+**Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/dff_const1.v
+synth -top dff_const1
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
+
+**Example 2**
+
+
+
+
+The output is constant so no flipflop will be inferred.
+
+**Simulation**
+
+
+
+**Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/dff_const2.v
+synth -top dff_const2
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
+
+
+
+</details>
+
 

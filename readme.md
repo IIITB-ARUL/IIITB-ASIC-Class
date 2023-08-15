@@ -683,5 +683,27 @@ show
 ```
 ![syncresshow](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/0efe3636-388b-4329-ac97-78718ef63217)
 
+**Optimization:**
+
+In this lab we will see optimization of circuits without using any hardware.We shall take an example of multiplier 2.
+
+
+
+From the image we can clearly see that the input is apended with a zero.So there is no need of any additional hardware.
+
+Verilog code:
+
+```
+module mul2 (input [2:0] a, output [3:0] y);
+	assign y = a * 2;
+endmodule
+```
+
+Lets synthesize this verilog design using yosys,
+
+
+
+
+
 
 </details>

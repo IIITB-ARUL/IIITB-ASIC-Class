@@ -625,6 +625,9 @@ module dff_async_set ( input clk ,  input async_set , input d , output reg q );
 	end
 endmodule
 ```
+![async set dff1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/e2ca2df9-b2ce-41cd-9ba9-3aaf9d1ee522)
+
+![asyn set dff](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/61606508-ebda-4a5e-a17c-294f1afb81f7)
 
 
 
@@ -640,6 +643,26 @@ synth -top dff_async_set
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
+```
+![Asyncset3](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/78820787-6391-45bb-bfb0-40948693cc76)
+
+
+**D flipflop with sync reset:**
+
+**Simulation:**
+
+Verilog code:
+
+```
+module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
+always @ (posedge clk )
+begin
+	if (sync_reset)
+		q <= 1'b0;
+	else	
+		q <= d;
+end
+endmodule
 ```
 
 

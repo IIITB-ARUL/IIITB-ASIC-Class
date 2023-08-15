@@ -681,7 +681,7 @@ dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 ```
-
+![syncresshow](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/0efe3636-388b-4329-ac97-78718ef63217)
 
 
 </details>

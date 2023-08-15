@@ -953,6 +953,7 @@ show
 
 **Example 1**
 
+![dffconst1 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/337e7759-5c76-416e-8196-c227d339efa3)
 
 
 
@@ -960,6 +961,7 @@ The output is changing so the flipflop will be inferred.
 
 **Simulation**
 
+![dffc1gtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/22a55605-556d-4d22-91ef-ea614c687970)
 
 
 **Synthesis**
@@ -973,18 +975,21 @@ dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 ```
+![DFFconst1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fcb3873f-fc38-4728-afa6-9b79cd91b2ff)
 
 
 
 **Example 2**
 
 
+![dffconst2 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/78813b7b-aa97-4be4-a113-f70fd06cb287)
 
 
 The output is constant so no flipflop will be inferred.
 
 **Simulation**
 
+![dffcons2gtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/aca21e59-15b7-413a-a029-32d9c8344be6)
 
 
 **Synthesis**
@@ -1000,6 +1005,7 @@ show
 ```
 
 
+![dffcons2 2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/e63ef7c4-b94d-4369-8ce7-0be0c668290b)
 
 
 

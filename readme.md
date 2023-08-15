@@ -788,8 +788,39 @@ From the image we can observe that the number of transistors deployed to realize
 
 From the image we infer that the long complex expression is reduced to a simple expression using kmap reduction.Here the boolean logic optimization is done by the synthesis tool.
 
+**Sequential logic optimization:**
+
+1.Basic
+
+~Sequential constant propagation
+
+2.Advanced 
+
+~State optimization
+
+~Retiming
+
+~Sequential logic cloning(Floor plane aware synthesis)
+
 </details>
 
+
+<details>
+	<summary>
+		Combinational logic optimization
+	</summary>
+
+**Lab**
+
+**1.1**
+
+
+
+
+
+
+ 
+</details>
 
 
 

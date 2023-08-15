@@ -605,7 +605,7 @@ show
 ```
 
 
-
+![asynres4](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/1d6f6a7d-52a6-45c3-899f-e07616c075ff)
 
 
 **D flipflop with async set:**

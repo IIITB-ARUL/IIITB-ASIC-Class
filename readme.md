@@ -857,8 +857,77 @@ show
 
 
 
+**Example 3**
 
- 
+
+**Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/opt_check3.v
+synth -top opt_check3
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
+**Example 4**
+
+
+
+**Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/opt_check4.v
+synth -top opt_check4
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
+**Example 5**
+
+Here the multiple_module_opt.v verilog file is synthesized and checked for optimization.There  are multiple modules presentin the design.
+
+
+
+ **Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/multiple_module_opt.v
+synth -top multiple_module_opt
+opt_clean -purge
+flatten
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
+**Example 6**
+
+
+
+ **Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/multiple_module_opt2.v
+synth -top multiple_module_opt2
+flatten
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
 </details>
 
 

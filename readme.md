@@ -743,6 +743,42 @@ The generated netlist:
 ## Day 3
 
 
+<details>
+	<summary>
+		Introduction to logic optimization
+	</summary>
+
+Why logic optimization?
+
+ Optimizing RTL designs involves enhancing various aspects of the design to achieve better performance, reduced power consumption, and improved area utilization.
+ This optimization can be achieved by synthesis tool by using different techniques.
+
+Techniques:
+
+
+1.Constant Propagation
+
+~Direct optimization
+
+2.Boolean logic optimization
+
+~K map
+
+~Queen Mckluskey
+
+
+**Constant propagation:**
+
+
+
+From the image we can observe that the number of transistors deployed to realize the same expression is decreased.
+
+**Boolean logic optimization:**
+
+
+
+</details>
+
 
 
 

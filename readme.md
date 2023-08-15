@@ -812,8 +812,47 @@ From the image we infer that the long complex expression is reduced to a simple 
 
 **Lab**
 
-**1.1**
+**Example 1**
 
+![ex1 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f7f23040-fcee-4ae7-8347-8e5e8f0b18d8)
+
+**Synthesis**
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/opt_check.v
+synth -top opt_check
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+>opt_clean -purge is the command used to all the optimization.
+
+![ex1 2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/e880bf3f-4e88-43e7-a153-02724cf58203)
+
+
+**Example 2**
+
+
+![ex2 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/18f3f75d-54d7-48da-8bba-32e1adf8f3cf)
+
+
+
+
+**Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/opt_check2.v
+synth -top opt_check2
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+
+![ex2 2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/7232f270-f0b4-498f-a3b5-dd837b61f9d3)
 
 
 

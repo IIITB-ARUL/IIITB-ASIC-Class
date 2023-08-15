@@ -708,11 +708,13 @@ Lets synthesize this verilog design using yosys,
 
 The generated netlist:
 
+![netlist mul2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/d9aca85e-ca5c-4873-b198-9d594d11d314)
 
 
 
 Now we shall take another examole of multiplier of 9:
 
+![mult8](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/e3ccfa9e-98f5-413f-b09b-109f9e91013a)
 
 
 
@@ -725,8 +727,14 @@ endmodule
 ```
 
 
+Synthesis:
+
+![mult8](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/9def89a3-4163-41ba-85cf-3e6361d08018)
 
 
+The generated netlist:
+
+![netlist8](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/8bb171ba-b555-4b86-9b1c-6e8ac855f1e9)
 
 
 </details>

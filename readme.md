@@ -1040,17 +1040,54 @@ show
 
 **Example 4**
 
+![dffcons4 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/3595dbf0-e4a4-4f8d-8fbb-d21062250121)
 
 
 
 **Simulation**
+
+![dffcons4](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/45e1bf5b-fe35-45f5-98ea-d3bae775df74)
+
+
 **Synthesis**
 
 
-**Example 4**
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/dff_const4.v
+synth -top dff_const4
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+
+```
+![dffcons4yosys](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/3a2d8543-e246-4a4c-84d6-254a1d55af6a)
+
+
+
+**Example 5**
+
+![dffcons5](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/7151e0c7-05c6-44d0-b394-7c6f5bcd3db2)
+
 **Simulation**
 
+![dffcons5 1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/6ce8143a-c980-4eca-b0dc-fea79e81a9be)
+
+
 **Synthesis**
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/dff_const5.v
+synth -top dff_const5
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+![dffcons5yosy](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ec8372ad-1266-4534-bf97-c22da01eb792)
 
 
 

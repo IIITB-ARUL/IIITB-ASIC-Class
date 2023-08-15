@@ -738,3 +738,11 @@ The generated netlist:
 
 
 </details>
+
+
+## Day 3
+
+
+
+
+

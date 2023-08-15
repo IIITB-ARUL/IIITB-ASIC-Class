@@ -1037,6 +1037,24 @@ show
 ![dffcons3yosys](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f8c40d45-8587-4f9a-bd26-69f38f77930d)
 
 
+
+**Example 4**
+
+
+
+
+**Simulation**
+**Synthesis**
+
+
+**Example 4**
+**Simulation**
+
+**Synthesis**
+
+
+
+
 </details>
 
 

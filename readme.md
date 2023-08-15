@@ -1097,5 +1097,29 @@ show
 	<summary>
 		Sequential optimizations for unused outputs
 	</summary>
+
+
+ **Example**
+
+
+
+
+
+
+
+
+
+**Synthesis**
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/counter_opt.v
+synth -top counter_opt
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+ 
 </details>
 

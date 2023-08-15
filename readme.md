@@ -565,7 +565,26 @@ show
 In RTL, flip-flops can be used to control the flow of data and operations in a circuit. For instance, they can hold  signals that determine whether certain operations or data transfers should occur so the glitches can be reduced then the output becomes settled down.Eventhough the input of the flop is glitching the output will be stable.
 
 **D flipflop with async reset:**
-A D flip-flop operates on clock edges. It captures the value of the D input on either the rising edge of the clock.Asynchronous Reset  input allows you to reset the flip-flop's state to 0 regardless of the clock signal
+A D flip-flop operates on clock edges. It captures the value of the D input on the rising edge of the clock.Asynchronous Reset  input allows you to reset the flip-flop's state to 0 regardless of the clock signal
+
+Now we shall simulate and synthesize the D-FF:
+
+**Simulation:**
+
+Verilog code:
+
+```
+ module dff_asyncres ( input clk ,  input async_reset , input d , output reg q );
+	always @ (posedge clk , posedge async_reset)
+	begin
+		if(async_reset)
+			q <= 1'b0;
+		else	
+			q <= d;
+	end
+endmodule
+```
+
 
 
 

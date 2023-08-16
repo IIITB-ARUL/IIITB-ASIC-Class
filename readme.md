@@ -1268,16 +1268,34 @@ Netlist Simulation:
 
 verilog code:
 
+![badmux](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/b4a08dae-4905-4a12-a60f-ac7830bcadc4)
+
+
 
 Simulation:
 
+![bad_muxgtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/3f374a84-937c-4630-9d83-bf1428f09fab)
 
 
 Synthesis:
 
 
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/bad_mux.v
+synth -top bad_mux
+write_verilog -noattr bad_mux_net.v
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+```
+
+![badmuxsynth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/5f96dc85-51f4-445e-ab6d-5b01da21d4eb)
+
 
 Netlist Simulation:
+
+![badmuxgtk2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f3cc2605-d186-4533-93bf-230d2488ff34)
 
  
 </details>

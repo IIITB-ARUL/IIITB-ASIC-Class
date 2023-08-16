@@ -538,7 +538,6 @@ To synthesise submodule:
 
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog 
 read_verilog multiple_modules.v 
 synth -top sub_module1
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -597,7 +596,7 @@ Commands:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/dff_asyncres.v
+read_verilog dff_asyncres.v
 synth -top dff_asyncres
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -638,7 +637,7 @@ Commands:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/dff_async_set.v
+read_verilog dff_async_set.v
 synth -top dff_async_set
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -675,7 +674,7 @@ Commands:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/dff_syncres.v
+read_verilog dff_syncres.v
 synth -top dff_syncres
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -820,7 +819,7 @@ From the image we infer that the long complex expression is reduced to a simple 
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/opt_check.v
+read_verilog opt_check.v
 synth -top opt_check
 opt_clean -purge
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -844,7 +843,7 @@ show
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/opt_check2.v
+read_verilog opt_check2.v
 synth -top opt_check2
 opt_clean -purge
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -871,7 +870,7 @@ show
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/opt_check3.v
+read_verilog opt_check3.v
 synth -top opt_check3
 opt_clean -purge
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -891,7 +890,7 @@ show
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/opt_check4.v
+read_verilog opt_check4.v
 synth -top opt_check4
 opt_clean -purge
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -912,7 +911,7 @@ Here the multiple_module_opt.v verilog file is synthesized and checked for optim
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/multiple_module_opt.v
+read_verilog multiple_module_opt.v
 synth -top multiple_module_opt
 opt_clean -purge
 flatten
@@ -932,7 +931,7 @@ show
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/multiple_module_opt2.v
+read_verilog multiple_module_opt2.v
 synth -top multiple_module_opt2
 flatten
 opt_clean -purge
@@ -969,7 +968,7 @@ The output is changing so the flipflop will be inferred.
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/dff_const1.v
+read_verilog dff_const1.v
 synth -top dff_const1
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -998,7 +997,7 @@ The output is constant so no flipflop will be inferred.
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/dff_const2.v
+read_verilog dff_const2.v
 synth -top dff_const2
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -1055,7 +1054,7 @@ show
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/dff_const4.v
+read_verilog dff_const4.v
 synth -top dff_const4
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -1080,7 +1079,7 @@ show
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/dff_const5.v
+read_verilog dff_const5.v
 synth -top dff_const5
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -1116,7 +1115,7 @@ From the above verilog code what we infer is shown in the below image
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/counter_opt.v
+read_verilog counter_opt.v
 synth -top counter_opt
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -1135,7 +1134,7 @@ Lets take an example which uses three flipflops
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/counter_opt2.v
+read_verilog counter_opt2.v
 synth -top counter_opt
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -1248,7 +1247,7 @@ Synthesis:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/ternary_operator_mux.v
+read_verilog ternary_operator_mux.v
 synth -top ternary_operator_mux
 write_verilog -noattr ternary_operator_mux_netlist.v
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -1283,7 +1282,7 @@ Synthesis:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/bad_mux.v
+read_verilog .bad_mux.v
 synth -top bad_mux
 write_verilog -noattr bad_mux_net.v
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -1316,7 +1315,7 @@ Synthesis:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/bad_mux.v
+read_verilog good_mux.v
 synth -top good_mux
 write_verilog -noattr good_mux_net.v
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -1347,7 +1346,7 @@ Synthesis:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/blocking_caveat.v
+read_verilog .blocking_caveat.v
 synth -top blocking_caveat
 write_verilog -noattr blocking_caveat.v
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -1411,7 +1410,7 @@ Synthesis:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/incomp_if.v
+read_verilog incomp_if.v
 synth -top incomp_if
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
@@ -1441,7 +1440,7 @@ Synthesis:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/incomp_if2.v
+read_verilog incomp_if2.v
 synth -top incomp_if2
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
@@ -1474,8 +1473,8 @@ Synthesis:
 ```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-read_verilog ../verilog_files/comp_case.v
-synth -top comp_case
+read_verilog incomp_case.v
+synth -top incomp_case
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 show
 

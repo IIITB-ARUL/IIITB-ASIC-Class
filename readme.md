@@ -1232,6 +1232,9 @@ Because of this also we will see mismatches.Let's see a simple code,
 		Labs on GLS and Synthesis Simulatuion mismatch
 	</summary>
 
+**Example 1**
+
+verilog code:
 
 
  

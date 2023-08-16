@@ -1303,11 +1303,27 @@ Netlist Simulation:
 verilog code:
 
 
+![goodmux](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/a3df10fa-f7ea-4c90-8713-e6b87fe796b0)
+
+
 Simulation:
+
+![goodmuxgtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/620cbeab-68bc-433d-abaf-e69665445e5b)
 
 
 Synthesis:
 
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/bad_mux.v
+synth -top good_mux
+write_verilog -noattr good_mux_net.v
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+```
+
+![goodmuxsynth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/7660d491-ea4b-4adf-9208-244dee78ceb6)
 
  
 </details>

@@ -1223,27 +1223,16 @@ Blocking and Non-blocking statements are procedural assignment statements that c
 
 Because of this also we will see mismatches.Let's see a simple code,
 
-**Caveats with Blocking statements**
-
-```
-module code (input clk,input reset,
-input d,
-output reg q);
-always @ (posedge clk,posedge reset)
-begin
-if(reset)
-begin
-        q0 = 1'b0;
-        q = 1'b0;
-end
-else
-        q = q0;
-        q0 = d;    
-end
-endmodule
-```
-
-
+**Note:**Always Use Non- Blocking Statements when writng the Sequential circuits code
 
 </details>
 
+<details>
+	<synthesis>
+		Labs on GLS and Synthesis Simulatuion mismatch
+	</synthesis>
+
+
+
+ 
+</details>

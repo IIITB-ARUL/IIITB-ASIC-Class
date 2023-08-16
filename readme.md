@@ -1229,7 +1229,7 @@ Because of this also we will see mismatches.Let's see a simple code,
 
 <details>
 	<summary>
-		Labs on GLS and Synthesis Simulatuion mismatch
+		Labs on GLS and Synthesis Simulatuion mismatch and Blocking statement
 	</summary>
 
 **Example 1**
@@ -1258,7 +1258,7 @@ show
 
 
 
-Netlist Simulation:
+Gate level Simulation:
 
 
 
@@ -1293,7 +1293,7 @@ show
 ![badmuxsynth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/5f96dc85-51f4-445e-ab6d-5b01da21d4eb)
 
 
-Netlist Simulation:
+ Gate level Simulation:
 
 ![badmuxgtk2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f3cc2605-d186-4533-93bf-230d2488ff34)
 
@@ -1326,4 +1326,33 @@ show
 ![goodmuxsynth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/7660d491-ea4b-4adf-9208-244dee78ceb6)
 
  
+
+
+
+**Example 4 **
+
+
+verilog code:
+
+
+
+Simulation
+
+
+Synthesis:
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/blocking_caveat.v
+synth -top blocking_caveat
+write_verilog -noattr blocking_caveat.v
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+```
+
+
+
+Gate level simulation:
+
 </details>

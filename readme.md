@@ -1213,7 +1213,13 @@ endmodule
 Here the output is gonna change when any of the signal(sel,i1,i0) changes.It is because the arguments of the always block is modified **always@(*)**. Synthesizer is not going to look at the sensitivity list.It is only going look at the functionality.
 
 
+**Blocking and Non blocking Assignments**
 
+Blocking and Non-blocking statements are procedural assignment statements that can be implemented only inside an always block.
+
+*Blocking Assignments --> = *Executes the statements in the order in which they are coded.
+
+*Non-blocking Assignments --> <= *Executes the RHS of all such assignments when the always block is entered and assigned to LHS in a parallel evaluation.
 
 
 </details>

@@ -1451,3 +1451,65 @@ show
 
  
 </details>
+
+
+<details>
+<summary>
+		Labs on incomplete If case 
+	</summary>
+
+**Case 1**
+
+Verilog code:
+
+
+Simulation:
+
+
+Synthesis:
+
+
+
+**Case 2**
+
+Verilog code:
+
+
+Simulation:
+
+
+Synthesis:
+
+
+
+
+**Case 3**
+
+Verilog code:
+
+
+Simulation:
+
+
+Synthesis:
+
+
+
+
+**Case 4**
+
+Verilog code:
+
+
+Simulation:
+
+
+Synthesis:
+
+
+
+
+ 
+</details>
+
+

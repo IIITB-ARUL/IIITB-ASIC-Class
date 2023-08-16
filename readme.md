@@ -1558,5 +1558,9 @@ Gate level simulation:
 </summary>
 
 <summary>
+	Chatgpt
+</summary>
+
+<summary>
 	Alwin Shaju, Colleauge(IIIT-B)
 </summary>

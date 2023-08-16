@@ -1166,6 +1166,11 @@ Gate-level simulation involves simulating the circuit using the actual logic gat
 1.To verify logical correcteness of design after synthesis.
 2.To ensure the timing of the design is met.
 
+**Synthesis Simulation Mismatch**
+
+The reason for synthesis simulation mismaatch is
+
+1.Missing sensitivity list.
 
 
 

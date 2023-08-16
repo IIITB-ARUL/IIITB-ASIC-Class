@@ -1489,6 +1489,7 @@ Verilog code:
 
 
 
+![c2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/d55e874d-4bf1-4b6a-9eea-da5784f84fe1)
 
 
 
@@ -1496,9 +1497,12 @@ Verilog code:
 
 Simulation:
 
+![c2gtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/ae462af0-8b44-4859-b173-5d37d30b0b72)
+
 
 Synthesis:
 
+![c2synth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/d9034341-2176-48fa-80e1-5c4af64aa256)
 
 
 

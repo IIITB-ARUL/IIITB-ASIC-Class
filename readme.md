@@ -1228,9 +1228,9 @@ Because of this also we will see mismatches.Let's see a simple code,
 </details>
 
 <details>
-	<synthesis>
+	<summary>
 		Labs on GLS and Synthesis Simulatuion mismatch
-	</synthesis>
+	</summary>
 
 
 

@@ -1236,6 +1236,48 @@ Because of this also we will see mismatches.Let's see a simple code,
 
 verilog code:
 
+![ternary](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/c6aa5a8a-1abf-48cf-858d-f98e8d0bc4f8)
+
+Simulation:
+
+![ternarygtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/97c07af7-ee1a-4deb-8c23-bce8fb2948f5)
+
+
+Synthesis:
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/ternary_operator_mux.v
+synth -top ternary_operator_mux
+write_verilog -noattr ternary_operator_mux_netlist.v
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+![ternaryyosys](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/dff491c0-8feb-4be1-a91f-68630c495090)
+
+
+
+Netlist Simulation:
+
+
+
+
+
+**Example 2**
+
+verilog code:
+
+
+Simulation:
+
+
+
+Synthesis:
+
+
+
+Netlist Simulation:
 
  
 </details>

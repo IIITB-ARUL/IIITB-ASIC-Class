@@ -1164,13 +1164,54 @@ Gate-level simulation involves simulating the circuit using the actual logic gat
 **Why GLS?**
 
 1.To verify logical correcteness of design after synthesis.
+
 2.To ensure the timing of the design is met.
 
 **Synthesis Simulation Mismatch**
 
 The reason for synthesis simulation mismaatch is
 
-1.Missing sensitivity list.
+**1.Missing sensitivity list**
+
+**Example 1**
+
+```
+module mux(
+input i0,input i1
+input sel,
+output reg y
+);
+always @ (sel)
+begin
+   if (sel)
+            y = i1;
+   else 
+            y = i0;          
+end
+endmodule
+```
+
+Basically the simulator looks for the activity of the input,i.e., if there is change in the input only then output changes.From the above code we see that always block is executed onlywhen sel is changed.So clearly output is independent of the change in input(i1 and i0).Here synthesizer is gonna look at this code as a double edge flop.
+
+To overcome this we will see the **modified code**,
+
+```
+module mux(
+input i0,input i1
+input sel,
+output reg y
+);
+always @ (*)
+begin
+   if (sel)
+            y = i1;
+   else 
+            y = i0;        
+end
+endmodule
+```
+Here the output is gonna change when any of the signal(sel,i1,i0) changes.It is because the arguments of the always block is modified **always@(*)**. Synthesizer is not going to look at the sensitivity list.It is only going look at the functionality.
+
 
 
 

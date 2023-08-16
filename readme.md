@@ -1151,13 +1151,14 @@ show
 ## Day 4
 <details>
 	<summary>
-		
+		GLS,Synthesis simulation mismatch,Blocking and Non blocking
 	</summary>
+	
 **Gate level simulation**
 
 Gate-level simulation involves simulating the circuit using the actual logic gates that make up the design, as well as the interconnections between these gates.Here simultaor takes gate level netlist as input and perform the simulation.
 
-
+![GLS](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fd4b0197-a449-41d2-87a3-399103a2e68f)
 
 
 **Why GLS?**

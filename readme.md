@@ -1488,6 +1488,12 @@ show
 Verilog code:
 
 
+
+
+
+
+
+
 Simulation:
 
 
@@ -1500,12 +1506,15 @@ Synthesis:
 
 Verilog code:
 
+![c3](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/d76675c6-6277-440d-b676-b173531869fd)
+
 
 Simulation:
 
 
 Synthesis:
 
+![c3synth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/287ce216-a3cf-420e-8566-a7cc773f4dcc)
 
 
 
@@ -1513,13 +1522,21 @@ Synthesis:
 
 Verilog code:
 
+![c4](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/e0131ec0-9cf4-4fa9-93dc-ca9105d62dbd)
+
 
 Simulation:
+
+![c4gtk1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/a41238e2-bd23-40db-aa84-2e64c6a694eb)
 
 
 Synthesis:
 
+![c4synth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/69207eb7-6f51-4518-9058-4972738b3b8f)
 
+Gate level simulation:
+
+![c4gtk2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/8bf4e5b4-57ab-4bf0-bd85-4c1b65fc0357)
 
 
  

@@ -1462,12 +1462,26 @@ show
 
 Verilog code:
 
+![c1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/4a6c5092-da99-4503-982b-56abc07259f3)
+
 
 Simulation:
 
+![c1gtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/a97ad72c-ffaa-4908-9ccb-63e942bd9cdd)
 
 Synthesis:
 
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/comp_case.v
+synth -top comp_case
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+
+```
+
+![c1synth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/9cfeaa2f-5f6e-44ed-9e32-5f6f46bfd343)
 
 
 **Case 2**

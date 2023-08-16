@@ -1334,10 +1334,13 @@ show
 
 verilog code:
 
+![blocking](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/1ed7d1d9-e409-48e4-a18d-cde95f0d7bba)
 
 
 Simulation
 
+
+![blockinggtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/fda0f269-a534-4ea9-817d-83ce8aa21e60)
 
 Synthesis:
 
@@ -1350,9 +1353,14 @@ write_verilog -noattr blocking_caveat.v
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
+![blockingsynth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/4c1563c9-fca1-46b6-a023-cbc684817b8e)
 
 
 
 Gate level simulation:
+
+
+![blockinggtk2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/dac28f27-8636-4540-b601-634713458272)
+
 
 </details>

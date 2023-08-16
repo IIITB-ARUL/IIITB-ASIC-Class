@@ -1425,16 +1425,29 @@ show
 
 Verilog code:
 
+![case2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/d157d4bb-d544-4825-9ff4-1b07d4f3c376)
+
 
 
 
 Simulation:
 
+![case2gtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/1d1cd8fe-055d-40af-9b8c-c9d3cac7b9e3)
 
 
 
 Synthesis:
 
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/incomp_if2.v
+synth -top incomp_if2
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+![cas2synth](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/a3f1a18b-c4ca-44fd-9dd2-a4cd6db84cdd)
 
  
 </details>

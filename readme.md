@@ -1148,3 +1148,26 @@ show
  
 </details>
 
+## Day 4
+<details>
+	<summary>
+		
+	</summary>
+**Gate level simulation**
+
+Gate-level simulation involves simulating the circuit using the actual logic gates that make up the design, as well as the interconnections between these gates.Here simultaor takes gate level netlist as input and perform the simulation.
+
+
+
+
+**Why GLS?**
+
+1.To verify logical correcteness of design after synthesis.
+2.To ensure the timing of the design is met.
+
+
+
+
+
+</details>
+

@@ -1375,6 +1375,9 @@ Gate level simulation:
 		If case constructs
 	</summary>
 
+
+
+
 If Case constructs
 
 The if statement is a conditional statement which uses boolean conditions to determine which blocks of verilog code to execute. If always translates into Multiplexer. It is used for priority Logic and are always used inside always block.The variable should be assigned as a register
@@ -1383,7 +1386,8 @@ CASE Statements
 
 The hardware implementation is a Multiplexer. Similar to IF Statements, Case statements are also used inside always block and the variable should be a register variable.
 
-
+</details>
+<details>
 <summary>
 		Labs on incomplete If case 
 	</summary>
@@ -1392,16 +1396,43 @@ The hardware implementation is a Multiplexer. Similar to IF Statements, Case sta
 
 Verilog code:
 
+![case1](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/9cb614ca-46b1-49a6-8802-6aa980e247c1)
+
+
+
+Simulation:
+
+![case1gtk](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/83797c06-9814-4358-bfd8-5abad8c4e7f4)
+
+
+Synthesis:
+
+```
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog ../verilog_files/incomp_if.v
+synth -top incomp_if
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+show
+```
+
+![case1yosys](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/a993fd30-3eb0-4379-9565-bb68eff293f5)
+
+
+**Case 1**
+
+
+Verilog code:
+
+
+
 
 Simulation:
 
 
 
+
 Synthesis:
-
-
-
-
 
 
  

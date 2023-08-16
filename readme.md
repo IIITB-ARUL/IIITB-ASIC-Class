@@ -1297,5 +1297,17 @@ Netlist Simulation:
 
 ![badmuxgtk2](https://github.com/IIITB-ARUL/IIITB-MT2023529/assets/140998631/f3cc2605-d186-4533-93bf-230d2488ff34)
 
+**Example 3**
+
+
+verilog code:
+
+
+Simulation:
+
+
+Synthesis:
+
+
  
 </details>

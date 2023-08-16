@@ -1387,6 +1387,7 @@ CASE Statements
 The hardware implementation is a Multiplexer. Similar to IF Statements, Case statements are also used inside always block and the variable should be a register variable.
 
 </details>
+
 <details>
 <summary>
 		Labs on incomplete If case 

@@ -1547,3 +1547,16 @@ Gate level simulation:
 </details>
 
 
+## Acknowledgements
+
+<summary>
+	Kunal Ghosh, VSD Corp. Pvt. Ltd.
+</summary>
+
+<summary>
+	Skywater Foundry
+</summary>
+
+<summary>
+	Alwin Shaju, Colleauge(IIIT-B)
+</summary>
